@@ -1,0 +1,87 @@
+    <div id="footer">
+        <div class="container">
+            <div class="row footer-top-row">
+                <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="footer-title">产品</div>
+                    <ul class="footer-products-list">
+                        <li><a href="products_list.html">海纳百川</a></li>
+                        <li><a href="products_list.html">回纹</a></li>
+                        <li><a href="products_list.html">江山</a></li>
+                        <li><a href="products_list.html">牡丹</a></li>
+                        <li><a href="products_list.html">如意</a></li>
+                        <li><a href="products_list.html">尚意</a></li>
+                        <li><a href="products_list.html">香草</a></li>
+                        <li><a href="products_list.html">知音</a></li>
+                        <li><a href="products_list.html">通配件</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="footer-title">体验中心</div>
+                    <ul class="footer-ty-list">
+                        <li><a href="#">客厅</a></li>
+                        <li><a href="#">餐厅</a></li>
+                        <li><a href="#">卧室</a></li>
+                        <li><a href="#">书房</a></li>
+                        <li><a href="#">茶室</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 footer-contact-col">
+                    <div class="footer-title">联系</div>
+                    <div class="footer-contact">
+                        中山博大集团<br>
+                        地  址：广东省中山市大涌镇兴涌东路168号<br>
+                        电  话：（0760）87772398 <br>
+                        传  真：（0760）87770315 <br>
+                        24小时服务热线：<span class="footer-contact-tel">400-045-6118</span> <br>
+                        加盟热线：<span class="footer-contact-tel">王小姐  13924995315</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-logo text-center" data-sr="scale up 20% over 1.5s">
+                <img src="images/ui/logo.png" alt="" class="img-responsive">
+            </div>
+            <div class="footer-nav text-center">
+                <a class="footer_weixin_icon">
+                    <i class="fa fa-weixin"></i>
+                    <div class="footer_weixin_qr">
+                        <img src="images/ui/weixin_qr.jpg" alt="">
+                    </div>
+                </a>
+                <a href="/contact.html">联系我们</a>
+                <a href="/products.html">产品展示</a>
+                <a href="/contact.html#contact_us_baidu_map">地图导航</a>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-backtotop text-center">
+            <img src="images/ui/footer-backtotop.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollReveal.min.js" charset="utf-8"></script>
+    <script src="js/elevator.min.js" charset="utf-8"></script>
+    <script src="js/jquery.zhjsplugin.js" charset="utf-8"></script>
+    <script src="js/common.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+        var srConfig = {
+            reset:true,
+            mobile:true
+        }
+        window.sr = new scrollReveal(srConfig);
+    </script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            var elevator = new Elevator({
+                element: document.querySelector(".footer-backtotop img"),
+                duration: 1500, // milliseconds
+                endCallback: function () {
+                    // $("body").animateCss("bounce");
+                }
+            });
+        }
+    </script>

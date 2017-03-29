@@ -1,0 +1,543 @@
+#brand-video {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+@media (max-width: 767px) {
+    #brand-video {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+#brand-video-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 1200px) {
+    #brand-video-container {
+        width: 960px;
+        height: 540px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #brand-video-container {
+        width: 860px;
+        height: 483.75px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #brand-video-container {
+        width: 660px;
+        height: 371.25px;
+    }
+}
+@media (max-width: 767px) {
+    #brand-video-container {
+        width: 290px;
+        height: 148px;
+    }
+}
+.video-js .vjs-big-play-button {
+    width: 1.5em;
+    border-radius: 50%;
+}
+.vjs-big-play-centered .vjs-big-play-button {
+    margin-left: -0.75em;
+}
+
+#company-intro {
+    height: 964px;
+    background-image: url(/images/ui/company-intro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media (max-width: 767px) {
+    #company-intro {
+        background-attachment: scroll;
+    }
+}
+#company-intro .container {
+    height: 100%;
+}
+@media (min-width: 1200px) {
+    #company-intro .container {
+        padding-top: 325px;
+        padding-bottom: 325px;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+}
+.company-intro-text {
+    background-color: rgba(204, 0, 0, 0.4);
+    height: 100%;
+    padding: 40px 140px;
+}
+.company-intro-text-title {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: Arial, "Microsoft YaHei";
+    padding-bottom: 30px;
+}
+.company-intro-text-content {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+@media (max-width: 767px) {
+    #company-intro {
+        height: 500px;
+    }
+    #company-intro .container {
+        padding: 60px 15px;
+    }
+    .company-intro-text {
+        padding: 30px 15px;
+    }
+    .company-intro-text-title {
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #company-intro {
+        height: 600px;
+    }
+    #company-intro .container {
+        padding: 160px 80px;
+    }
+    .company-intro-text {
+        padding: 30px 50px;
+    }
+    .company-intro-text-title {
+        font-size: 28px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #company-intro {
+        height: 700px;
+    }
+    #company-intro .container {
+        padding: 200px 120px;
+    }
+    .company-intro-text {
+        padding: 40px 80px;
+    }
+    .company-intro-text-title {
+        font-size: 38px;
+    }
+}
+
+#brand-intro {
+    height: 1377px;
+    margin-bottom: 160px;
+    background-image: url(/images/ui/brand-intro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#brand-intro .container {
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 320px;
+}
+.brand-intro-text {
+    background-color: rgba(204, 0, 0, 0.3);
+    color: #fff;
+    font-size: 14px;
+    border: 3px solid rgba(140, 139, 139, 0.5);
+    margin-bottom: 425px;
+    padding: 40px 170px;
+}
+.brand-intro-text-title {
+    font-size: 48px;
+    font-family: Arial, "Microsoft YaHei";
+    text-align: center;
+    padding-bottom: 35px;
+}
+.brand-intro-text-content {
+    line-height: 1.8em;
+}
+@media (max-width: 767px) {
+    #brand-intro {
+        height: 1100px;
+        margin-bottom: 0;
+    }
+    #brand-intro .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+    }
+    .brand-intro-text {
+        padding: 20px 15px;
+        margin-bottom: 30px;
+    }
+    .brand-intro-text-title {
+        font-size: 20px;
+    }
+    .brand-boss-text {
+        padding: 20px 15px !important;
+    }
+    .brand-boss-text-title {
+        font-size: 20px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #brand-intro {
+        height: 800px;
+        margin-bottom: 50px;
+    }
+    #brand-intro .container {
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-top: 70px;
+    }
+    .brand-intro-text {
+        padding: 20px 50px;
+        margin-bottom: 70px;
+    }
+    .brand-intro-text-title {
+        font-size: 28px;
+    }
+    .brand-boss-text {
+        padding: 15px 15px !important;
+    }
+    .brand-boss-text-title {
+        font-size: 28px !important;
+    }
+    .brand-boss-row .col-md-7 {
+        height: 310px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #brand-intro {
+        height: 900px;
+        margin-bottom: 80px;
+    }
+    #brand-intro .container {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 100px;
+    }
+    .brand-intro-text {
+        padding: 40px 80px;
+        margin-bottom: 100px;
+    }
+    .brand-intro-text-title {
+        font-size: 38px;
+    }
+    .brand-boss-text {
+        padding: 20px 15px !important;
+    }
+    .brand-boss-text-title {
+        font-size: 38px !important;
+    }
+    .brand-boss-row .col-md-7 {
+        height: 289px;
+    }
+}
+.brand-boss-row {
+    border: 3px solid rgba(140, 139, 139, 0.5);
+}
+.brand-boss-text {
+    background-color: rgba(204, 0, 0, 0.3);
+    color: #fff;
+    font-size: 14px;
+    padding: 25px 30px;
+    height: 100%;
+}
+.brand-boss-row .col-md-5, .brand-boss-row .col-md-7 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.brand-boss-row .col-md-5 img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.brand-boss-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+@media (min-width: 1200px) {
+    .brand-boss-row .col-md-5 {
+        width: 324px;
+        height: 310px;
+    }
+    .brand-boss-row .col-md-7 {
+        width: 630px;
+        height: 310px;
+    }
+}
+.brand-boss-text-title {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.brand-boss-text-content {
+    line-height: 1.8em;
+}
+
+/*company-cul-dsj*/
+#company-cul-dsj {
+    height: 2010px;
+    background-image: url(/images/ui/company-culture-dsj-bg.jpg);
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+#company-cul-dsj .container {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.company-culture {
+    height: 1008px;
+    background-image: url(/images/ui/company-culture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    margin-bottom: 90px;
+}
+.company-dsj {
+    height: 910px;
+    background-image: url(/images/ui/company-dsj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+.company-culture-text, .company-dsj-text {
+    background-color: rgba(204, 0, 0, 0.3);
+    color: #fff;
+    font-size: 14px;
+    border: 3px solid rgba(140, 139, 139, 0.5);
+    padding: 40px 100px;
+}
+.company-culture-text-title, .company-dsj-text-title {
+    font-size: 48px;
+    font-family: Arial, "Microsoft YaHei";
+    text-align: center;
+    padding-bottom: 30px;
+}
+.company-culture-text-content, .company-dsj-text-content {
+    line-height: 1.8em;
+}
+@media (max-width: 767px) {
+    #company-cul-dsj .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+    }
+    .company-culture-text, .company-dsj-text {
+        padding: 30px 15px;
+    }
+    .company-culture-text-title, .company-dsj-text-title {
+        font-size: 20px;
+    }
+    .company-culture {
+        height: 600px;
+        /*padding-top: 30px;*/
+    }
+    .company-dsj {
+        height: 600px;
+        background-position: 70%;
+        /*padding-top: 100px;*/
+    }
+    #company-cul-dsj {
+        height: 1320px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #company-cul-dsj .container {
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-top: 30px;
+    }
+    .company-culture-text, .company-dsj-text {
+        padding: 30px 50px;
+    }
+    .company-culture-text-title, .company-dsj-text-title {
+        font-size: 28px;
+    }
+    .company-culture {
+        height: 600px;
+    }
+    .company-dsj {
+        height: 600px;
+    }
+    #company-cul-dsj {
+        height: 1320px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #company-cul-dsj .container {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 30px;
+    }
+    .company-culture-text, .company-dsj-text {
+        padding: 30px 60px;
+    }
+    .company-culture-text-title, .company-dsj-text-title {
+        font-size: 38px;
+    }
+    .company-culture {
+        height: 700px;
+    }
+    .company-dsj {
+        height: 700px;
+    }
+    #company-cul-dsj {
+        height: 1520px;
+    }
+}
+
+/*company-ry*/
+#company-ry {
+    margin-bottom: 120px;
+    background-image: url(/images/ui/company-ry-bg.jpg);
+    background-repeat: no-repeat;
+}
+@media (min-width: 1200px) {
+    #company-ry .container {
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+}
+
+.company-ry {
+    background-color: #fff;
+}
+.company-ry-title {
+    color: #fff;
+    font-size: 48px;
+    font-family: Arial, "Microsoft YaHei";
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #cd9191;
+    text-align: center;
+    border: 3px solid #fff;
+}
+@media (max-width: 767px) {
+    .company-ry-title {
+        font-size: 20px;
+    }
+    .company-ry-content {
+        padding-top: 30px !important;
+        padding-bottom: 10px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .company-ry-title {
+        font-size: 28px;
+    }
+    .company-ry-content {
+        padding-top: 50px !important;
+        padding-bottom: 20px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .company-ry-title {
+        font-size: 38px;
+    }
+    .company-ry-content {
+        padding-top: 50px !important;
+        padding-bottom: 20px !important;
+    }
+}
+.company-ry-content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.company-ry-content img {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 992px) {
+    .company_ry_row2 .col-md-2 {
+        width: 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .company_ry_row1 {
+        padding-left: 95px;
+        padding-right: 95px;
+        margin-bottom: 100px;
+    }
+    .company_ry_row2 {
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .company_ry_row2 .col-md-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 60px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .company_ry_row1 {
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-bottom: 50px;
+    }
+    .company_ry_row2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .company_ry_row2 .col-md-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .company_ry_row1 {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 50px;
+    }
+    .company_ry_row1 .col-xs-6 img.img-responsive {
+        height: 270px;
+    }
+    .company_ry_row2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .company_ry_row2 .col-md-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 30px;
+    }
+    .company_ry_row2 .col-md-2 img.img-responsive {
+        height: 110px;
+    }
+}
+@media (max-width: 767px) {
+    .company_ry_row1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+    .company_ry_row1 .col-xs-6 {
+        margin-bottom: 20px;
+    }
+    .company_ry_row1 .col-xs-6 img.img-responsive {
+        height: 145px;
+    }
+    .company_ry_row2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .company_ry_row2 .col-md-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+        height: 100px;
+    }
+    .company_ry_row2 .col-md-2 img.img-responsive {
+        height: 96px;
+    }
+}

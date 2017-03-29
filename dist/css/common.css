@@ -1,0 +1,406 @@
+/*Code by ZHJ*/
+/*=== 隐藏bs提示 ===*/
+#__bs_notify__ {
+    display: none !important;
+}
+
+/*=== 通用样式 ===*/
+body {
+    background-color: #060000;
+    font-family: "Microsoft YaHei";
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+.thumbnail {
+    border-radius: 0;
+    padding: 0;
+    border: none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+}
+/*通用padding、margin*/
+@media (max-width: 767px) {
+    .pt30-xs {
+        padding-top: 30px !important;
+    }
+    .pt50-xs {
+        padding-top: 50px !important;
+    }
+    .pb30-xs {
+        padding-bottom: 30px !important;
+    }
+    .pb50-xs {
+        padding-bottom: 50px !important;
+    }
+    .mt30-xs {
+        margin-top: 30px !important;
+    }
+    .mt50-xs {
+        margin-top: 50px !important;
+    }
+    .mb30-xs {
+        margin-bottom: 30px !important;
+    }
+    .mb50-xs {
+        margin-bottom: 50px !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .pt50-sm {
+        padding-top: 50px !important;
+    }
+    .pb50-sm {
+        padding-bottom: 50px !important;
+    }
+    .mt50-sm {
+        margin-top: 50px !important;
+    }
+    .mb50-sm {
+        margin-bottom: 50px !important;
+    }
+    .mb80-sm {
+        margin-bottom: 80px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pt50-md {
+        padding-top: 50px !important;
+    }
+    .pt80-md {
+        padding-top: 80px !important;
+    }
+    .pb50-md {
+        padding-bottom: 50px !important;
+    }
+    .pb80-md {
+        padding-bottom: 80px !important;
+    }
+    .mt50-md {
+        margin-top: 50px !important;
+    }
+    .mt80-md {
+        margin-top: 80px !important;
+    }
+    .mb50-md {
+        margin-bottom: 50px !important;
+    }
+    .mb80-md {
+        margin-bottom: 80px !important;
+    }
+}
+
+/*调整PC下container宽度*/
+@media (min-width: 1260px) {
+    .container {
+        width: 1230px;
+    }
+}
+
+/*header*/
+.navbar-inverse {
+    background-color: #060000;
+}
+.navbar-brand {
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@media (min-width:992px) {
+    .navbar-brand {
+        padding-left: 45px;
+    }
+}
+@media (min-width:992px) {
+    .nav.navbar-nav {
+        margin-top: 80px;
+        margin-left: 95px;
+    }
+}
+@media (max-width:767px) {
+    .navbar-brand>img {
+        width: 120px;
+    }
+    .navbar-toggle {
+        margin-top: 25px;
+    }
+    .navbar-inverse .navbar-collapse {
+        border-bottom: 1px solid #222;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand>img {
+        width: 140px;
+    }
+    .nav.navbar-nav {
+        margin-top: -30px;
+        margin-left: 150px;
+    }
+    .nav.navbar-nav li a {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+.nav.navbar-nav li a {
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #828080;
+}
+@media (max-width: 767px) {
+    .nav.navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.nav.navbar-nav li:last-child a {
+    border-right: none;
+}
+.nav.navbar-nav li.active a {
+    background-color: #a42224;
+    border-right: none;
+}
+.nav.navbar-nav li a:hover, .nav.navbar-nav li.active a:hover {
+    background-color: #a42224;
+    border-right: none;
+}
+
+/*footer*/
+#footer {
+    padding-bottom: 140px;
+}
+@media (max-width: 767px) {
+    #footer {
+        padding-bottom: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #footer {
+        padding-bottom: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #footer {
+        padding-bottom: 30px;
+    }
+}
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+.footer-products-list li, .footer-ty-list li {
+    padding-bottom: 10px;
+}
+.footer-products-list li a, .footer-ty-list li a {
+    font-size: 14px;
+    color: #ffffff;
+}
+.footer-contact {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 3em;
+    position: relative;
+    top: -10px;
+}
+.footer-contact-tel {
+    color: #a32024;
+}
+@media (min-width: 1200px) {
+    .footer-top-row {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer-top-row {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.footer-nav a {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+    text-decoration: none;
+}
+.footer-nav a .fa.fa-weixin {
+    font-size: 30px;
+    vertical-align: middle;
+}
+.footer_weixin_qr {
+    display: none;
+    position: absolute;
+    top: -170px;
+    left: -75px;
+    padding: 10px;
+    background-color: transparent;
+}
+.footer_weixin_icon {
+    position: relative;
+    /*cursor: pointer;*/
+}
+.footer_weixin_icon:hover .footer_weixin_qr {
+    display: block;
+}
+.footer-line {
+    height: 2px;
+    background-color: #c4c3c3;
+    border-top: 1px solid #ffffff;
+}
+.footer-logo {
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+@media (max-width: 767px) {
+    .footer-logo {
+        padding-top: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-logo {
+        padding-top: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer-logo {
+        padding-top: 30px;
+    }
+}
+.footer-line {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .footer-contact-col {
+        margin-top: 30px;
+    }
+    .footer-nav a {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .footer_weixin_qr {
+        left: -10px;
+    }
+}
+.footer-backtotop img {
+    cursor: pointer;
+}
+
+/*加盟流程*/
+.join-process .thumbnail {
+    background-color: #1c1b21;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    height: 125px;
+    padding-top: 15px;
+}
+.join-process .thumbnail.active {
+    background-color: #a42224;
+}
+.join-process .thumbnail img {
+    height: 55px;
+}
+.join-process .thumbnail .caption {
+    color: #ffffff;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+@media (max-width: 767px) {
+    .row.join-process .col-xs-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .join-process .thumbnail {
+        overflow: hidden;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container.join-content {
+        /*width: 100%;*/
+    }
+    .join-process .thumbnail {
+        height: 150px;
+    }
+}
+@media (min-width:992px) {
+    .join-process .col-md-1 {
+        width: 11.11111111%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .join-process {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}
+
+/*新闻列表、产品列表分页导航*/
+#pagination {
+    background-color: #f3f3f3;
+}
+#pagination .container {
+    text-align: center;
+}
+.pagination {
+    border-radius: 0;
+    /*font-size: 12px;*/
+}
+.pagination li a, .pagination li span {
+    color: #221815;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #221815;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    border-radius: 0;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-radius: 0;
+}
+.pagination>li>a, .pagination>li>span {
+    border: none;
+}
+@media (min-width: 1200px) {
+    #pagination {
+        margin-bottom: 110px;
+    }
+    .pagination {
+        margin-top: 90px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #fff;
+    }
+}
+@media (max-width: 767px) {
+    #pagination {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #pagination {
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #pagination {
+        margin-bottom: 60px;
+    }
+}
+.pagination>li>span:hover, .pagination>li>span:focus {
+    /*background-color: inherit;*/
+}

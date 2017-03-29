@@ -1,0 +1,202 @@
+#contact_banner {
+    height: 650px;
+    background-image: url(/images/ui/contact-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 767px) {
+    #contact_banner {
+        height: 200px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #contact_banner {
+        height: 400px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #contact_banner {
+        height: 500px;
+    }
+}
+
+#contact_jobs {
+    padding-top: 30px;
+}
+@media (min-width: 768px) {
+    .contact_jobs_content_row .col-md-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact_jobs_content_row {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: #e7e7e7;
+    }
+}
+@media (max-width: 767px) {
+    .contact_jobs_item {
+        background-color: #e7e7e7;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact_jobs_content_row .col-sm-4:nth-child(1) .contact_jobs_detail {
+        margin-right: -480px;
+    }
+    .contact_jobs_content_row .col-sm-4:nth-child(2) .contact_jobs_detail {
+        margin-left: -240px;
+        margin-right: -240px;
+    }
+    .contact_jobs_content_row .col-sm-4:nth-child(3) .contact_jobs_detail {
+        margin-left: -480px;
+    }
+}
+.contact_jobs_title {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #9c2324;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .contact_jobs_title, .contact_us_title {
+        font-size: 24px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+}
+.contact_jobs_name {
+    font-size: 18px;
+    line-height: 2.5em;
+    color: #221815;
+    text-align: center;
+}
+.contact_jobs_btn_detail, .contact_jobs_btn_download {
+    text-align: center;
+}
+.contact_jobs_btn_detail button, .contact_jobs_btn_download a {
+    border: 1px solid #747474;
+    border-radius: 0;
+    font-size: 18px;
+    color: #221815;
+    padding: 8px 60px;
+}
+.contact_jobs_btn_download {
+    margin-top: 30px;
+}
+.contact_jobs_btn_detail button.active, .contact_jobs_btn_detail button.active:focus, .contact_jobs_btn_detail button.active:hover {
+    background-color: #9a2223;
+    color: #fff;
+}
+.contact_jobs_detail p {
+    font-size: 14px;
+    color: #221815;
+    line-height: 2em;
+}
+.contact_jobs_detail {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#contact_jobs .col-md-4:nth-child(2) .contact_jobs_detail, #contact_jobs .col-md-4:nth-child(3) .contact_jobs_detail {
+    display: none;
+}
+
+/*contact_us*/
+#contact_us {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.contact_us_title {
+    text-align: center;
+    background-color: #9c2324;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact_us_row {
+    /*background-color: #e7e7e7;*/
+}
+@media (min-width: 1200px) {
+    .contact_us_row .col-md-7, .contact_us_row .col-md-5 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact_us_row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contact_us_text {
+        height: 550px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 90px;
+    }
+}
+@media (max-width: 767px) {
+    .contact_us_text {
+        padding: 30px 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact_us_text {
+        padding: 30px 50px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contact_us_row .col-md-7, .contact_us_row .col-md-5 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact_us_row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contact_us_text {
+        height: 550px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 80px;
+    }
+}
+.contact_us_text {
+    background-color: #e7e7e7;
+}
+.contact_us_text_title {
+    font-size: 24px;
+    color: #9c2324;
+    line-height: 2em;
+}
+.contact_us_text_content {
+    font-size: 18px;
+    color: #221815;
+    line-height: 3em;
+}
+#contact_us_baidu_map {
+    width: 100%;
+    height: 550px;
+    border: 1px solid #eee;
+}
+@media (max-width: 767px) {
+    #contact_us_baidu_map {
+        height: 400px;
+    }
+}
+#contact_us_baidu_map label.BMapLabel {
+    max-width: none;
+    font-size: 14px !important;
+    padding: 5px !important;
+}
+#contact_us_baidu_map span.BMap_Marker > div {
+    width: 24px !important;
+    height: 34px !important;
+    left: -18px !important;
+    top: -25px !important;
+}

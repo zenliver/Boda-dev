@@ -1,0 +1,300 @@
+#join_banner {
+    height: 650px;
+    background-image: url(/images/ui/join-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 767px) {
+    #join_banner {
+        height: 200px;
+        background-position: 45%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #join_banner {
+        height: 400px;
+        background-position: 56%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #join_banner {
+        height: 500px;
+        background-position: 56%;
+    }
+}
+#join_banner .container {
+    padding-top: 305px;
+}
+.join_banner_text {
+    color: #fff;
+    font-size: 36px;
+
+    /*20170324修改*/
+    display: none;
+}
+.join_banner_text a {
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    .join_banner_text {
+        font-size: 20px;
+    }
+    #join_banner .container {
+        padding-top: 88px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .join_banner_text {
+        font-size: 28px;
+    }
+    #join_banner .container {
+        padding-top: 185px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .join_banner_text {
+        font-size: 36px;
+    }
+    #join_banner .container {
+        padding-top: 230px;
+    }
+}
+/*join_terms*/
+#join_terms {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+#join_terms .container .row .col-md-6 {
+    background-color: #fff;
+    height: 334px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#join_terms .container .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.join_terms_text {
+    padding: 50px 30px;
+}
+.join_terms_text_title {
+    font-size: 30px;
+    color: #595757;
+    padding-bottom: 25px;
+}
+.join_terms_text_content {
+    font-size: 14px;
+    line-height: 2em;
+    color: #080001;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #join_terms .container .row .col-md-6 {
+        height: 261px;
+    }
+    .join_terms_text {
+        padding: 20px 20px;
+    }
+    .join_terms_text_title {
+        padding-bottom: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .join_terms_text {
+        padding: 60px 80px;
+    }
+    .join_terms_text_title {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    #join_terms .container .row .col-md-6 {
+        height: auto;
+    }
+    .join_terms_text {
+        padding: 20px 15px;
+    }
+    .join_terms_text_title {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+}
+
+#join_ys .container .row .col-md-4 {
+    margin-bottom: 10px;
+}
+@media (min-width: 1200px) {
+    #join_ys .container .row .col-md-4 {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    #join_ys .container .row {
+        margin-left: -13px;
+        margin-right: -13px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+#join_ys .container .row .col-md-4 .thumbnail {
+    height: 483px;
+}
+#join_ys .container .row .col-md-4 .thumbnail .caption, #join_support3 .container .row .col-md-4 .thumbnail .caption {
+    padding: 15px 20px;
+}
+.join_ys_col_top .thumbnail {
+    height: 397px !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .join_ys_col_top .thumbnail {
+        height: 320px !important;
+    }
+    .join_ys_col_top .join_ys_content {
+        max-height: 90px;
+        overflow: hidden;
+    }
+    #join_ys .container .row .col-md-4 .thumbnail {
+        height: 453px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .join_ys_col_top .thumbnail {
+        height: 376px !important;
+    }
+    .join_ys_col_top .join_ys_content {
+        /*max-height: 90px;*/
+        overflow: hidden;
+    }
+    #join_ys .container .row .col-md-4 .thumbnail {
+        height: 453px;
+    }
+    .join_ys_col_top:nth-child(3) .thumbnail {
+        height: 453px !important;
+    }
+}
+@media (max-width: 767px) {
+    #join_ys .container .row .col-md-4 .thumbnail {
+        height: 453px;
+    }
+}
+.join_ys_title, .join_support3_title {
+    font-size: 18px;
+    color: #080001;
+    padding-bottom: 5px;
+}
+.join_ys_content, .join_support3_content {
+    font-size: 14px;
+    line-height: 2em;
+    color: #080001;
+    overflow: hidden;
+}
+
+/*join_suport*/
+#join_suport {
+    height: 451px;
+    background-image: url(/images/ui/join-suport-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#join_suport .container {
+    padding-top: 205px;
+}
+.join_suport_text {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+}
+@media (max-width: 767px) {
+    #join_suport {
+        height: 150px;
+    }
+    #join_suport .container {
+        padding-top: 65px;
+    }
+    .join_suport_text {
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #join_suport {
+        height: 200px;
+    }
+    #join_suport .container {
+        padding-top: 85px;
+    }
+    .join_suport_text {
+        font-size: 28px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #join_suport {
+        height: 300px;
+    }
+    #join_suport .container {
+        padding-top: 130px;
+    }
+    .join_suport_text {
+        font-size: 36px;
+    }
+}
+
+#join_support3 .container .row .col-md-4 .thumbnail {
+    background-color: #f3f3f3;
+    height: 450px;
+}
+@media (min-width: 1200px) {
+    #join_support3 .container .row .col-md-4 {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    #join_support3 .container .row {
+        margin-left: -13px;
+        margin-right: -13px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+@media (max-width: 767px) {
+    #join_support3 .container .row .col-md-4 .thumbnail {
+        height: 400px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #join_support3 .container .row .col-md-4 .thumbnail {
+        height: 400px;
+    }
+}
+
+/*join_process_banner*/
+#join_process_banner {
+    height: 450px;
+    margin-top: 10px;
+    background-image: url(/images/ui/join-process.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width: 767px) {
+    #join_process_banner {
+        height: 150px;
+        background-position: 65% top;
+        background-size: 900px auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #join_process_banner {
+        height: 200px;
+        background-position: 50% top;
+        background-size: 1200px auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #join_process_banner {
+        height: 300px;
+        background-position: 50% top;
+        /*background-size: 1200px auto;*/
+    }
+}
+#join_process_content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
