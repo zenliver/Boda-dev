@@ -495,3 +495,8 @@
         overflow: hidden;
     }
 }
+
+/*首页底部显示技术支持*/
+.footer_beian {
+    display: block;
+}

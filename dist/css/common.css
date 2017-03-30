@@ -295,6 +295,15 @@ ul {
         left: -10px;
     }
 }
+.footer_beian {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+    display: none;
+}
+.footer_beian a {
+    color: #fff;
+}
 .footer-backtotop img {
     cursor: pointer;
 }

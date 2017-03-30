@@ -1,6 +1,9 @@
 // Code by ZHJ
 $(function () {
 
+    // 全局变量
+    var screenWidth=$(window).width();
+
     // 给当前页的顶部导航项添加active样式
     var currentPagePath=location.pathname;
     console.log(currentPagePath);
@@ -21,7 +24,6 @@ $(function () {
 
     // 去除active的导航项前面的border-right
     $(".nav.navbar-nav li.active").prev().find("a").css("border-right","none");
-
 
     $(".join-process .thumbnail").mouseover(function () {
         $(".join-process .thumbnail").removeClass("active");
@@ -104,6 +106,20 @@ $(function () {
         }
     });
 
+    // 新闻列表页：手机下新闻缩略图显示高度自适应
+    function newsThumbDisplayAutoHeight(imgSelector,imgDesignPercent) {
+        // var screenWidth=$(window).width();
+        // var imgMaxWidth=screenWidth-30;
+        // console.log(imgMaxWidth);
+        $(imgSelector).each(function () {
+            var imgWidth=$(this).width();
+            console.log(imgWidth);
+            $(this).parent().css("height",imgWidth*imgDesignPercent);
+        });
+    }
+    if (screenWidth<768) {
+        newsThumbDisplayAutoHeight("#news_list .thumbnail > a > img",0.61825);
+    }
 
     // 联系页面：职位详情切换效果
     $(".contact_jobs_btn_detail button").click(function () {

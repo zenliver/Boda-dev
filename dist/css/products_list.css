@@ -3,18 +3,24 @@ html, body {
     overflow-x: hidden;
 }
 #products_list_banner {
+    height: 650px;
+    background-size: cover;
+    background-position: center;
     margin-bottom: 30px;
 }
 @media (max-width: 767px) {
     #products_list_banner {
-        margin-left: -30%;
-        margin-right: -30%;
+        height: 200px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #products_list_banner {
-        margin-left: -20%;
-        margin-right: -20%;
+        height: 400px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #products_list_banner {
+        height: 500px;
     }
 }
 
