@@ -104,6 +104,9 @@ $(function () {
         if (screenWidthNew<768) {
             videoPlayerAutoResize();
         }
+        else {
+            $("#brand-video-container").css({"width":"", "height":""});
+        }
     });
 
     // 新闻列表页：手机下新闻缩略图显示高度自适应
